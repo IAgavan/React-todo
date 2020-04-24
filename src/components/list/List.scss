@@ -1,0 +1,75 @@
+.list {
+  margin-bottom: 30px;
+
+  li {
+    display: flex;
+    align-items: center;
+    padding: 10px 2px;
+    cursor: pointer;
+
+    span {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    &.active {
+      background: #fff;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.04);
+      border-radius: 4px;
+    }
+
+    button {
+      opacity: 0;
+      width: 20px;
+      height: 20px;
+      box-sizing: border-box;
+      background-color: transparent;
+      border: none;
+      margin-left: auto;
+      cursor: pointer;
+      border-radius: 50%;
+
+      img {
+        opacity: 0.5;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+
+    &.grey {
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover:not(.grey) {
+      button {
+        opacity: 1;
+      }
+    }
+    &:hover:not(.active):not(.grey) {
+      background-color: rgba(0, 0, 0, 0.02);
+    }
+
+    i {
+      display: inline-flex;
+      margin-right: 8px;
+
+      img {
+        opacity: 0.6;
+      }
+
+      .badge {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: relative;
+        left: 2px;
+      }
+    }
+  }
+}

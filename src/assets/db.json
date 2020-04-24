@@ -1,0 +1,91 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Продажа",
+      "colorId": 5
+    },
+    {
+      "colorId": 4,
+      "name": "Фильмы",
+      "id": 3
+    },
+    {
+      "colorId": 3,
+      "name": "das",
+      "id": 4
+    }
+  ],
+  "tasks": [
+    {
+      "completed": true,
+      "id": 7
+    },
+    {
+      "listId": 1,
+      "text": "qweqwe",
+      "completed": true,
+      "id": 8
+    },
+    {
+      "listId": 1,
+      "text": "123",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "listId": 3,
+      "text": "новая задача",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "listId": 4,
+      "text": "ывыф",
+      "completed": false,
+      "id": 11
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}
